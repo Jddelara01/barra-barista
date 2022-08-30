@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Roboto&display=swap');
+
 * {
    margin: 0;
    padding: 0;
-   box-sizing: border-box; 
+   box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: rgba(0,0,0,0.5) url("../images/barra_barista.jpg") no-repeat center center;
+    background-size: cover;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+}
+
+/* headings and logo */
+h1 {
+    font-family: 'Elsie', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+#logo {
+    text-decoration: none;
+    float: left;
+    font-size: 250%;
+    margin: 25px 50px;
+}
+
+/* navigation links */
+#navbar-menu {
+    font-size: 120%;
+    float: right;
+    color: #fff;
+    font-weight: 150;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#logo, #navbar-menu {
+    line-height: 100px;
+}
+
+#navbar-menu li {
+    float: left;
+    margin-left: 2em;
+    list-style-type: none;
+}
+
+#navbar-menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#navbar-menu a:hover {
+    background-color: #fff;
+    color: #0000;
 }
