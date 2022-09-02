@@ -1,186 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie&family=Roboto&display=swap');
 
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'roboto', sans-serif;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #faf9f6;
 }
 
-#landing-page {
+/* landing page */
+.landing-container {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/barra_barista_counter.jpg);
-    background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/barra_barista_counter.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    font-family: 'roboto', sans-serif;
-    font-weight: 400;
-    color: #faf9f6;
+    background-size: cover;
 }
 
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* headings and logo */
-h1, h2 {
+h1,
+h2 {
     font-family: 'Elsie', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
 }
 
-#logo {
-    text-decoration: none;
-    float: left;
+.logo {
+    width: 50%;
+    height: 150px;
+}
+
+.logo h1 {
+    line-height: 100px;
+    padding-left: 65px;
     font-size: 250%;
-    margin-left: 2em;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 /* navigation links */
-#navbar-menu {
+.menu-navbar {
+    width: 50%;
+    height: 125px;
+}
+
+.menu-navbar ul {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-navbar li {
     font-size: 120%;
-    float: right;
-    color: #fff;
     font-weight: 150;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    text-decoration: none;
-    margin-right: 4em;
-}
-
-#logo, #navbar-menu {
-    line-height: 100px;
-}
-
-#navbar-menu li {
-    float: left;
-    margin-left: 2em;
     list-style-type: none;
 }
 
-#navbar-menu a {
-    color: inherit;
+.menu-navbar a {
+    color: #fff;
     text-decoration: none;
 }
 
-#navbar-menu a:hover {
-    background-color: #fff;
-    color: #0000;
-}
-
-/* home */
-#home-outer {
-    clear: both;
-    display: table;
-    height: 90%;
-    width: 100%;
-}
-
-#home-middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#home-inner {
+#intro {
+    height: 600px;
     margin: auto auto;
-    width: 100%;
     text-align: center;
+    padding: 100px;
 }
 
-#home-inner > p {
+#intro>p {
     font-size: 300%;
     letter-spacing: 6px;
     font-family: 'Elsie', sans-serif;
     font-weight: 300;
 }
 
-#main-logo {
+#intro>img {
     height: auto;
     width: 600px;
 }
 
-/* main image */
-.barra-container {
-    height: 500px;
-    width: 100%;
-}
-
-.barra-image {
-    height: 500px;
+/* header */
+#header-container {
+    height: 30vh;
     width: 100%;
     background: url("../images/barra_barista.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .page-name {
-    font-size: 200%;
-    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
 
-    width: 300px;
-    height: 100px;
-
-    padding-top: 20px;
-
-    top: 200px;
-    left: 43%;
-
+.page-name h2 {
+    width: 100%;
+    font-size: 400%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
-    
-    position: absolute;
 }
 
 /* about us */
 #about-us-content {
-    margin: auto auto;
+    display: flex;
+    height: 50vh;
 }
 
-#about-us-content > p {
-    float: left;
-    width: 35%;
-    margin-left: 8%;
-    margin-top: 100px;
-    margin-right: 100px;
+#about-us-content>div {
+    margin-left: 0 auto;
+    padding: 50px;
+    font-size: 30px;
 
-
-    text-align: right;
-    font-size: 2em;
-
-    padding: 10px;
+    max-height: inherit;
+    max-width: 50%;
 }
 
-#about-us-image {
-    float: right;
-    width: 35%;
-    height: 500px;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-right: 8%;
-
-    padding: 10px;
-
-}
-
-#about-us-image > img {
-    width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+#about-us-content>div>img {
+    height: fit-content;
+    max-width: 50%;
+    margin-right: 20%;
 }
 
 /* footer */
 footer {
-    height: 10%;
+    height: 10vh;
     width: 100%;
     text-align: center;
-    bottom: 0;
-    right: 0;
     padding: 1em;
     font-size: 150%;
+    margin: 0 auto;
 }
 
-footer > a {
+footer>a {
     padding: 2%;
     color: #f5fffa;
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    .logo {
+        width: auto;
+    }
+
+    .menu-navbar ul{
+        width: auto;
+        flex-direction: column;
+    }
 }
