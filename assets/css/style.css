@@ -158,7 +158,7 @@ footer>a {
 /* For screen sizes from 1250px wide and down */
 @media screen and (max-width: 1250px) {
     .logo {
-        width: auto;
+        width: 50%;
     }
 
     .logo h1 {
@@ -166,10 +166,14 @@ footer>a {
         padding-left: 40px;
         font-size: 175%;
     }
+
+    .menu-navbar {
+        justify-content: flex-end;
+    }
     
     .menu-navbar ul{
         width: auto;
-        flex-direction: column;
+        margin-right: 10px;
     }
 
     #intro>p {
@@ -185,7 +189,7 @@ footer>a {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     .logo {
-        width: auto;
+        width: 50%;
     }
 
     .logo h1 {
@@ -196,7 +200,6 @@ footer>a {
 
     .menu-navbar ul{
         width: auto;
-        flex-direction: column;
     }
 
     #intro>p {
