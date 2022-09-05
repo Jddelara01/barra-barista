@@ -170,22 +170,24 @@ h2 {
 /* about us */
 #about-us-content {
     display: flex;
-    height: 50vh;
 }
 
 #about-us-content>div {
+    display: flex;
     margin-left: 0 auto;
     padding: 50px;
     font-size: 30px;
 
     max-height: inherit;
     max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #about-us-content>div>img {
-    height: fit-content;
     max-width: 50%;
-    margin-right: 20%;
 }
 
 /* footer */
