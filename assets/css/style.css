@@ -10,6 +10,7 @@ body {
     font-family: 'roboto', sans-serif;
     background-color: rgb(39 39 42);
     color: #faf9f6;
+    padding-bottom: 4%;
 }
 
 /* landing page */
@@ -226,14 +227,53 @@ h2 {
     -webkit-transform: scale(1.25);
 }
 
+
+/* Find Us page */
+#findus-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px;
+    width: 80%;
+    min-height: 60vh;
+}
+
+.opening-times {
+    font-size: 1.25vw;
+}
+
+tr, th, td {
+	text-align: center;
+    padding: 5px;
+}
+
+th, td {
+    border-bottom: 3px solid #f1f1f1;
+    padding: 5px;
+}
+
+.map {
+    width: 75%;
+    height: 30vh;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.address {
+    font-size: 1.25vw;
+}
+
 /* footer */
 footer {
     width: 100%;
     text-align: center;
     padding-top: 1em;
     font-size: 1vw;
-    margin: 0 auto;
-
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
 }
 
 footer>a {
