@@ -10,7 +10,6 @@ body {
     font-family: 'roboto', sans-serif;
     background-color: rgb(39 39 42);
     color: #faf9f6;
-    padding-bottom: 4%;
 }
 
 /* landing page */
@@ -199,6 +198,7 @@ h2 {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto auto;
+    padding-bottom: 5%;
 }
 
 .menu-card {
@@ -264,6 +264,28 @@ th, td {
     font-size: 1.25vw;
 }
 
+/* contact us form */
+#contact-form-wrapper {
+    max-width: 50%;
+    margin: 50px auto auto auto;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    font-size: 1.25vw;
+    padding: 10px;
+    margin: 2px;
+}
+
+textarea {
+    width: 50%;
+    margin-top: 10px;
+    font-size: 1vw;
+}
+
+
+
 /* footer */
 footer {
     width: 100%;
@@ -279,6 +301,10 @@ footer {
 footer>a {
     padding: 2%;
     color: #f5fffa;
+}
+
+footer > p {
+    padding-bottom: 10px;
 }
 
 /* For screen sizes from 1250px wide and down */
@@ -366,7 +392,7 @@ footer>a {
 }
 
 /* For medium screen sizes from 450px wide and down */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     #menu-wrapper {
         flex-direction: column;
     }
@@ -379,5 +405,9 @@ footer>a {
         transform: scale(1.15);
         -ms-transform: scale(1.15);
         -webkit-transform: scale(1.15);
+    }
+
+    .about-us-content {
+        font-size: 3rem;
     }
 }
