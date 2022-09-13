@@ -50,16 +50,21 @@ body {
     height: auto;
 }
 
+.intro-btn-margin {
+    margin-top: 1rem;
+}
+
 .intro-btn {
     height: 3.5rem;
-    width: 50%;
+    width: 100%;
     font-size: 100%;
     font-weight: bold;
     border-radius: 25px;
-    margin-top: 40px;
     background-color: #000;
     text-decoration: none;
     color: #f1f1f1;
+    padding: 0.5rem 3rem;
+    border: 1px solid #f1f1f1;
 }
 
 /* headings and logo */
@@ -113,6 +118,10 @@ h2 {
 .menu-navbar a {
     color: #fff;
     text-decoration: none;
+}
+
+.menu-navbar > ul > li > .active {
+    text-decoration: underline;
 }
 
 /*dropdown menubar*/
