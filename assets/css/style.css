@@ -46,7 +46,7 @@ body {
 }
 
 .intro-image {
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
@@ -374,9 +374,15 @@ footer > p {
     }
 
     .logo h1 {
-        line-height: 50px;
-        padding-left: 20px;
-        font-size: 125%;
+        font-size: 2rem;
+    }
+
+    #intro {
+        width: 80%;
+    }
+
+    .intro-image {
+        width: 60%;
     }
 
     .menu-navbar {
@@ -385,15 +391,6 @@ footer > p {
 
     .dropdown-menu-navbar {
         display: flex;
-    }
-
-    #intro>p {
-        font-size: 100%;
-        font-weight: 300;
-    }
-
-    #intro>img {
-        width: 300px;
     }
 
     .about-us-content {
@@ -418,8 +415,34 @@ footer > p {
 
 }
 
-/* For medium screen sizes from 450px wide and down */
+/* For medium screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
+    .logo {
+        width: 70%
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+    .dropdown-menu-navbar {
+        width: 30%;
+    }
+
+    #intro {
+        width: 100%;
+    }
+
+    .intro-content {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    
+    .intro-image {
+        width: 80%;
+    }
+
     #menu-wrapper {
         flex-direction: column;
     }
