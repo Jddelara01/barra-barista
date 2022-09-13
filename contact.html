@@ -56,13 +56,13 @@
 
     <div id="contact-form-wrapper">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="form-content">
-            <input type="text" id="fullname" placeholder="Full Name" required>
+            <input type="text" name="fullname" placeholder="Full Name" required>
             <br>
-            <input type="tel" id="mobile" placeholder="Mobile Number" pattern="[0-9]{11]" required>
+            <input type="tel" name="mobile" placeholder="Mobile Number" pattern="[0-9]{11]" required>
             <br>
-            <input type="email" id="email" placeholder="Email" required>
+            <input type="email" name="email" placeholder="Email" required>
             <br>
-            <textarea name="message" id="message" placeholder="Your message" cols="20" rows="5"></textarea>
+            <textarea name="message" id="message" placeholder="Your message" cols="20" rows="5" required></textarea>
             <br>
             <input type="submit" value="Submit!">
         </form>
