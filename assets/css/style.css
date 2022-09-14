@@ -318,7 +318,7 @@ footer {
     width: 100%;
     text-align: center;
     padding-top: 1em;
-    font-size: 1vw;
+    font-size: 0.8rem;
     position: fixed;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
@@ -412,7 +412,7 @@ footer > p {
     }
 
     footer {
-        font-size: 2vw;
+        font-size: 0.75rem;
     }
 
     .menu-card>img:hover {
@@ -472,5 +472,9 @@ footer > p {
         transform: scale(1.15);
         -ms-transform: scale(1.15);
         -webkit-transform: scale(1.15);
+    }
+
+    footer {
+        font-size: 0.5rem;
     }
 }
