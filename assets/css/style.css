@@ -252,7 +252,7 @@ h2 {
     transform: scale(1.25);
     -ms-transform: scale(1.25);
     -webkit-transform: scale(1.25);
-}
+}     
 
 
 /* Find Us page */
@@ -260,14 +260,13 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 5% auto;
     padding: 25px;
     width: 80%;
-    min-height: 60vh;
 }
 
 .opening-times {
-    font-size: 1.25vw;
+    font-size: 1.25rem;
 }
 
 tr, th, td {
@@ -288,7 +287,7 @@ th, td {
 }
 
 .address {
-    font-size: 1.25vw;
+    font-size: 1.25rem;
 }
 
 /* contact us form */
@@ -421,6 +420,20 @@ footer > p {
         -webkit-transform: scale(2);
     }
 
+    #findus-wrapper {
+        width: 90%;
+        margin-bottom: 8%;
+    }
+
+    .map {
+        width: 100%
+    }
+
+    .address {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
     footer {
         font-size: 0.75rem;
     }
@@ -475,6 +488,14 @@ footer > p {
         transform: scale(1.50);
         -ms-transform: scale(1.50);
         -webkit-transform: scale(1.50);
+    }
+
+    #findus-wrapper {
+        width: 100%
+    }
+
+    .map {
+        width: 100%;
     }
 
     footer {
