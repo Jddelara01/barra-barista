@@ -292,25 +292,46 @@ th, td {
 
 /* contact us form */
 #contact-form-wrapper {
-    max-width: 50%;
+    width: 50%;
     margin: 50px auto auto auto;
     text-align: center;
+    margin-bottom: 8%;
+    font-size: 2rem;
+}
+
+.form-content {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 10px 0 #000000f8;
+    border-radius: 10px;
 }
 
 input {
-    width: 50%;
-    font-size: 1.25vw;
+    width: 60%;
+    font-size: 1.25rem;
     padding: 10px;
-    margin: 2px;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 textarea {
-    width: 50%;
+    width: 60%;
     margin-top: 10px;
-    font-size: 1vw;
+    font-size: 1rem;
+    border-radius: 5px;
 }
 
+.button {
+    width: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.contact-us-msg {
+    margin:3px;
+    padding: 10px;
+    font-family: 'elsie', sans-serif;
+}
 
 /* footer */
 footer {
@@ -372,7 +393,7 @@ footer > p {
     }
 
     .logo h1 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     #intro {
@@ -433,6 +454,24 @@ footer > p {
         font-size: 0.9rem;
         text-align: center;
     }
+
+    #contact-form-wrapper {
+        width: 75%;
+        margin-bottom: 15%;
+    }
+
+    input {
+        width: 75%;
+    }
+
+    textarea {
+        width:75%;
+    }
+
+    .contact-us-msg {
+        font-size: 1.5rem;
+    }
+
 
     footer {
         font-size: 0.75rem;
@@ -496,6 +535,29 @@ footer > p {
 
     .map {
         width: 100%;
+    }
+
+    #contact-form-wrapper {
+        width: 90%;
+    }
+
+    input {
+        width: 90%;
+        font-size: 0.75rem;
+    }
+
+    textarea {
+        width: 90%;
+        font-size: 0.75rem;
+    }
+
+    .contact-us-msg {
+        font-size: 1.25rem;
+    }
+
+    .button {
+        width: 50%;
+        font-size: 1rem;
     }
 
     footer {
