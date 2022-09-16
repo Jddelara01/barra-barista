@@ -1,10 +1,10 @@
-# Barra Barista Cafe
+# Barra Barista
 
 Responsive Mockup goes here
 
 ----
 
-Barra Barista is an informational website about the Barra Barista coffee shop. The website will be targeted towards customers and potential new customers of Barra Barista coffee shop that are looking to know more about Barra Barista and to get more information about the coffee shop (ie. What's in the menu, when do they open and close, etc.)
+Barra Barista is an informational website about the Barra Barista coffee shop. The website will be targeted towards customers and potential new customers of Barra Barista coffee shop that are looking to know more about Barra Barista and to get more information about the coffee shop (ie. What is in the menu, opening hours, etc.)
 
 ----
 
