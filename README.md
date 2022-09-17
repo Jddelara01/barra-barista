@@ -25,6 +25,7 @@ In this section, I will be going through the different parts of the website and 
     - The landing page is the first page a site user will see when he/she opens the website. It contains an logo image of Barra Barista with it's slogan and a button that will 
     - It contains a background image of what the Barra Barista counter to give site users and idea what to expect (ie. the ambience) if they decide to visit Barra Barista.
     - It also contains an logo image of Barra Barista with it's slogan and a button that a site user can click to bring him/her to the menu page.  
+    - A site user can access the landing page again by clicking the Logo in the navigation bar.
 
 ![Landing Page](/assets/images/landingpage.PNG)
 
@@ -67,7 +68,7 @@ In this section, I will be going through the different parts of the website and 
 
 ![Footer](/assets/images/footer.PNG)
 
-### Future Development Plans
+### Future Development Plans 
     - To add more content (ie. Activities done by Barra Barista that has help the community, any active charities they are supporting, etc.) in the About us page.
     - To create a centralized email address from Barra Barista for the contact us form, this helps checking or following-up on each message more effeciently.
 ----
@@ -109,6 +110,62 @@ To help with the debugging with this project, I mostly used [Chrome Devtools](ht
 _N/A_
 
 ### Page Design in Different Devices/Browser Sizes
+As the website is designed for desktop size device/browser, the images the feature section should be the same. So I will only include tablet device size / mobile device size in this section.
 
-- _Navigation Bar_
-    -
+| Features             | Tablet (950px and below) |  Mobile (600px and below) |
+| -------------------- |:------------------------ | :------------------------ |
+| Navigation Bar       | - The four links About Us, Menu, Find Us and Contact are changed into an <br> hamburger menu. <br> - The Logo size will automatically adjust to fit the device/browser size. | - The four links About Us, Menu, Find Us and Contact are changed into an <br> hamburger menu. <br> - The Logo size will automatically adjust to fit the device/browser size. |                                          
+| Landing Page         | - The Barra Barista image and font size size will automatically adjust to fit the device/browser size. | - The Barra Barista image and font size size will automatically adjust to fit the device/browser size.|
+| About Us Page        | - The image in the about us page will go underneath the paragraph. <br> - The image and font size will adjust automatically to fit the device/browser size.                 | - The image in the about us page will go underneath the paragraph. <br> - The image and font size will automatically adjust to fit the device/browser size. |
+| Menu Page            | - The menu images will automatically adjust to fit the device/browser size. | - The menu images go underneath each other and will almost fill the whole width of the page. |
+| Find Us Page         | - The font size and the map will automatically adjust to fit the device/browser size. | - The font size and the map will automatically adjust to fit the device/browser size. |
+| Contact Page         | - The font size and the form will automatically adjust to fit the device/browser size. | - The font size and the form will automatically adjust to fit the device/browser size. |
+
+-----
+
+## Deployment
+As the site was static, it was deployed using *GitHub Pages*.  The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the *Settings* tab
+- In the Source section select *Deploy from a branch* option in the drop-down menu
+- In the Branch section select *main* option in the drop-down menu
+- Keep directory set to the */root*.
+- The page will reload with a link to the live site
+
+The live link can be found here - https://jddelara01.github.io/barra-barista/
+
+![Github Deployment Page](/assets/images/deployment.PNG)
+
+-----
+
+## Technologies Used
+
+### IDE
+- [GitPod](https://gitpod.io/)
+
+### Languages and Frameworks/Resources
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+
+### Project Management and Deployment
+- [GitHub](https://github.com/)
+
+### Other
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Google Fonts](https://fonts.google.com/)
+- [Fontawesome 6](https://fontawesome.com/)
+- [Slack](https://slack.com/intl/en-ie/)
+
+-----
+
+## Credits
+ 
+### Content
+- The icons in the footer were taken from [Fontawesome 6](https://fontawesome.com/)
+- The icon for the hamburger menu in the navigation bar was also taken from [Fontawesome 6](https://fontawesome.com/)
+- Guide on how to stick the footer in the bottom of the page was taken from [Stackoverflow](https://stackoverflow.com/questions/14427703/footer-not-sticking-to-bottom)
+- Landing page idea was taken from [Soumed Studio](https://www.youtube.com/watch?v=MaIjOMx7A7I&t=280s&ab_channel=SoumedStudio)
+- The fonts used were taken from [Google Fonts](https://fonts.google.com/)
+
+### Media
+- Some images were taken from an free open source site [Pexels](https://www.pexels.com/) and the other images were provided by the Barra Barista owner Vincent Regidor (regidorvincent@rocketmail.com)
