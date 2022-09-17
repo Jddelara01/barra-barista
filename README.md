@@ -68,4 +68,47 @@ In this section, I will be going through the different parts of the website and 
 ![Footer](/assets/images/footer.PNG)
 
 ### Future Development Plans
+    - To add more content (ie. Activities done by Barra Barista that has help the community, any active charities they are supporting, etc.) in the About us page.
+    - To create a centralized email address from Barra Barista for the contact us form, this helps checking or following-up on each message more effeciently.
+----
 
+## Testing
+
+### Validator Testing
+
+- _HTML_
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjddelara01.github.io%2Fbarra-barista%2F)
+
+- _CSS_
+  - No errors were found when passing through the official [(Jigsaw) validator]
+
+### Known Issues
+
+- The image size
+    - The image in the about us page is overlapping from the div container it belonged to. So it made the picture bigger than I expected. 
+- The font sizes (All pages)
+    - The font sizes does not adjust automatically to fit different media devices and browser sizes.
+- Footer issue
+    - The footer is not sticking at the bottom of the page.
+- Divs are not aligned correctly
+    - When using the float parameter, some divs does not looked aligned.
+
+### Resolved Issues
+To help with the debugging with this project, I mostly used [Chrome Devtools](https://developer.chrome.com/docs/devtools/). I also used chrome devtools to see and compare what the website will look like in different devices or browser sizes.
+
+- The image size
+    - By testing using the Chrome Devtools, I was able to identify that removing the height parameter of the div where the image is in it helped resolved the overlapping issue. Also, I have set the parameter of the image to "width:100%" and "height:auto" to make sure that the image will fit in whatever the div size will be.
+- The font sizes (All pages)
+    - I was able to resolved this issue but changing the font size unit to rem. Eventhough that the font size is responsive/adjusts automatically I still have to check how it looked like in different devices or browser sizes (via Chrome tools again) and adjust the font size parameter accordingly.
+- Footer issue
+    - Searching through google helped me resolved this issue. I found this page [Stackoverflow](https://stackoverflow.com/questions/14427703/footer-not-sticking-to-bottom) and it helped me.
+- Divs are not aligned correctly
+    - Started using flex instead of float parameters and it helped me resolved the alignment issues and also made it easier for me to design the website moving forward.
+
+### Unresolved Issues
+_N/A_
+
+### Page Design in Different Devices/Browser Sizes
+
+- _Navigation Bar_
+    -
