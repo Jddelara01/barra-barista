@@ -467,14 +467,14 @@ footer > p {
     }
 }
 
-/* For medium screen sizes from 600px wide and down */
+/* For small screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
     .logo {
         width: 70%
     }
 
     .logo h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         letter-spacing: 2px;
     }
 
@@ -553,5 +553,18 @@ footer > p {
 
     footer {
         font-size: 0.5rem;
+    }
+}
+
+
+/* For extra-small screen sizes from 300px wide and down */
+@media screen and (max-width: 300px) {
+    .logo h1 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .page-name h2 {
+        font-size: 1.5rem;
     }
 }
