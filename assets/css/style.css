@@ -201,7 +201,6 @@ h2 {
 }
 
 .about-us-content {
-    margin-left: 0 auto;
     padding: 50px;
     width: 50%;
     align-items: center;
@@ -243,15 +242,9 @@ h2 {
 
 .menu-card>img:hover {
     color: #424242;
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
     transition: all .3s ease-in;
     opacity: 1;
     transform: scale(1.25);
-    -ms-transform: scale(1.25);
-    -webkit-transform: scale(1.25);
 }     
 
 
@@ -381,8 +374,6 @@ footer > p {
 
     .menu-card>img:hover {
         transform: scale(1.50);
-        -ms-transform: scale(1.50);
-        -webkit-transform: scale(1.50);
     }
 }
 
@@ -437,8 +428,6 @@ footer > p {
 
     .menu-card>img:hover {
         transform: scale(2);
-        -ms-transform: scale(2);
-        -webkit-transform: scale(2);
     }
 
     #findus-wrapper {
@@ -525,8 +514,6 @@ footer > p {
 
     .menu-card>img:hover {
         transform: scale(1.50);
-        -ms-transform: scale(1.50);
-        -webkit-transform: scale(1.50);
     }
 
     #findus-wrapper {
