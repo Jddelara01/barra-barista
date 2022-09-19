@@ -81,6 +81,11 @@ In this section, I will be going through the different parts of the website and 
 - _CSS_
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjddelara01.github.io%2Fbarra-barista%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+- _Lighthouse Report (from Chrome Devtools)_
+    - All pages of the website has green ratings when it comes to Performance, Accessibility, Best Practices and SEO
+
+![Lighthouse_Report](/assets/images/lighthouse_report.png) 
+
 ### Known Issues
 
 - The image size
