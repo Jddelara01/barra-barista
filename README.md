@@ -1,12 +1,8 @@
 # Barra Barista
 
-Responsive Mockup goes here
-
-----
+![Responsive Mockup](/assets/images/responsive_mockup.PNG)
 
 Barra Barista is an informational website about the Barra Barista coffee shop. The website will be targeted towards customers and potential new customers of Barra Barista coffee shop that are looking to know more about Barra Barista and to get more information about the coffee shop (ie. What is in the menu, opening hours, etc.)
-
-![Responsive Mockup](/assets/images/responsive_mockup.PNG)
 
 ----
 
@@ -71,7 +67,7 @@ In this section, I will be going through the different parts of the website and 
 ![Footer](/assets/images/footer.PNG)
 
 ### Future Development Plans 
-    - To add more content (ie. Activities done by Barra Barista that has help the community, any active charities they are supporting, etc.) in the About us page.
+    - To add more content (ie. Activities done by Barra Barista that has help the community, any active charities they are supporting, etc.) in the About us page and put it in a slideshow and use javascript.
     - To create a centralized email address from Barra Barista for the contact us form, this helps checking or following-up on each message more effeciently.
 ----
 
@@ -83,7 +79,7 @@ In this section, I will be going through the different parts of the website and 
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjddelara01.github.io%2Fbarra-barista%2F)
 
 - _CSS_
-  - No errors were found when passing through the official [(Jigsaw) validator]
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjddelara01.github.io%2Fbarra-barista%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Known Issues
 
