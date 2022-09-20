@@ -20,7 +20,7 @@ In this section, I will be going through the different parts of the website and 
 ![Navigation Bar](/assets/images/navbar.PNG)
 
 - _Landing Page_
-    - The landing page is the first page a site user will see when he/she opens the website. It contains an logo image of Barra Barista with it's slogan and a button that will 
+    - The landing page is the first page a site user will see when he/she opens the website. It contains an logo image of Barra Barista with it's slogan and a button that will bring a site user to the food and drinks options (Menu page).
     - It contains a background image of what the Barra Barista counter to give site users and idea what to expect (ie. the ambience) if they decide to visit Barra Barista.
     - It also contains an logo image of Barra Barista with it's slogan and a button that a site user can click to bring him/her to the menu page.  
     - A site user can access the landing page again by clicking the Logo in the navigation bar.
